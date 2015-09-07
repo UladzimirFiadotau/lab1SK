@@ -31,12 +31,16 @@
 
 - (void) shake {
     [super shake];
-    int toFall = arc4random_uniform(10);
+    unsigned int countOfApples = (unsigned int)[_apples count];
+    int toFall = arc4random_uniform(countOfApples);
+    
     for (int i = 0; i < toFall; i++) {
-        Apple* apple = [_apples objectAtIndex:i];
+        int index = arc4random_uniform(--countOfApples);
+        Apple* apple = [_apples objectAtIndex:index];
         [apple fall];
-        [_apples removeObjectAtIndex:i];
+        [_apples removeObjectAtIndex:index];
     }
+    NSLog(@" %d apples fell " , toFall);
 }
 
 - (void) grown {
