@@ -8,15 +8,16 @@
 
 #import <Foundation/Foundation.h>
 #import "Apple.h"
+#import "AppleTree.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        Apple* apple = [Apple createApple];
-        
-        [apple mature];
-        [apple fall];
-        NSLog(@"Hello, World!");
+        id <Tree> tree = [AppleTree appleTreeWithAppleCount:20];
+        [tree grown];
+        [tree grown];
+        [tree shake];
+        [tree grown];
+        [tree shake];
     }
     return 0;
 }

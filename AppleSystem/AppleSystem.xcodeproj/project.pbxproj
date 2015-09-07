@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84A91A791B9DC1D000444B84 /* GeneralTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A91A781B9DC1D000444B84 /* GeneralTree.m */; };
+		84A91A7C1B9DC26800444B84 /* AppleTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A91A7B1B9DC26800444B84 /* AppleTree.m */; };
 		D031860C1B98A652009BE4C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D031860B1B98A652009BE4C2 /* main.m */; };
 		D03186171B98A73C009BE4C2 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = D03186161B98A73C009BE4C2 /* Apple.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		84A91A761B9DC19D00444B84 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		84A91A771B9DC1D000444B84 /* GeneralTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralTree.h; sourceTree = "<group>"; };
+		84A91A781B9DC1D000444B84 /* GeneralTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralTree.m; sourceTree = "<group>"; };
+		84A91A7A1B9DC26800444B84 /* AppleTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleTree.h; sourceTree = "<group>"; };
+		84A91A7B1B9DC26800444B84 /* AppleTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleTree.m; sourceTree = "<group>"; };
 		D03186081B98A652009BE4C2 /* AppleSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AppleSystem; sourceTree = BUILT_PRODUCTS_DIR; };
 		D031860B1B98A652009BE4C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D03186151B98A73C009BE4C2 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
@@ -63,6 +70,11 @@
 				D031860B1B98A652009BE4C2 /* main.m */,
 				D03186151B98A73C009BE4C2 /* Apple.h */,
 				D03186161B98A73C009BE4C2 /* Apple.m */,
+				84A91A761B9DC19D00444B84 /* Tree.h */,
+				84A91A771B9DC1D000444B84 /* GeneralTree.h */,
+				84A91A7A1B9DC26800444B84 /* AppleTree.h */,
+				84A91A7B1B9DC26800444B84 /* AppleTree.m */,
+				84A91A781B9DC1D000444B84 /* GeneralTree.m */,
 			);
 			path = AppleSystem;
 			sourceTree = "<group>";
@@ -123,6 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A91A7C1B9DC26800444B84 /* AppleTree.m in Sources */,
+				84A91A791B9DC1D000444B84 /* GeneralTree.m in Sources */,
 				D03186171B98A73C009BE4C2 /* Apple.m in Sources */,
 				D031860C1B98A652009BE4C2 /* main.m in Sources */,
 			);
@@ -238,6 +252,7 @@
 				D03186111B98A652009BE4C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
