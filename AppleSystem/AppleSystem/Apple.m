@@ -31,6 +31,25 @@
     if (_color != RED) {
       _color++;
     }
-    NSLog(@"Apple has matered: bones - %d", _boneCount);
+    NSLog(@"Apple has matered: bones - %d , new color = %@", _boneCount , [self getColor]);
+}
+
+- (NSString *) getColor{
+    NSString * result = nil;
+    switch (_color) {
+        case GREEN:
+            result = @"Green";
+            break;
+        case YELLOW:
+            result = @"Yellow";
+            break;
+        case RED:
+            result = @"Red";
+            break;
+        default:
+            result = @"Unkown Color";
+            break;
+    }
+    return result;
 }
 @end

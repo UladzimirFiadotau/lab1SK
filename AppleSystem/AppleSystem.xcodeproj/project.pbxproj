@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		848CE6F21B9E194F002B5A00 /* Leaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 848CE6F11B9E194F002B5A00 /* Leaf.m */; };
 		84A91A791B9DC1D000444B84 /* GeneralTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A91A781B9DC1D000444B84 /* GeneralTree.m */; };
 		84A91A7C1B9DC26800444B84 /* AppleTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A91A7B1B9DC26800444B84 /* AppleTree.m */; };
 		D031860C1B98A652009BE4C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D031860B1B98A652009BE4C2 /* main.m */; };
@@ -26,6 +27,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		848CE6F01B9E194F002B5A00 /* Leaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leaf.h; sourceTree = "<group>"; };
+		848CE6F11B9E194F002B5A00 /* Leaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leaf.m; sourceTree = "<group>"; };
+		848CE6F31B9E1A01002B5A00 /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
 		84A91A761B9DC19D00444B84 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
 		84A91A771B9DC1D000444B84 /* GeneralTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralTree.h; sourceTree = "<group>"; };
 		84A91A781B9DC1D000444B84 /* GeneralTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralTree.m; sourceTree = "<group>"; };
@@ -75,6 +79,9 @@
 				84A91A7A1B9DC26800444B84 /* AppleTree.h */,
 				84A91A7B1B9DC26800444B84 /* AppleTree.m */,
 				84A91A781B9DC1D000444B84 /* GeneralTree.m */,
+				848CE6F01B9E194F002B5A00 /* Leaf.h */,
+				848CE6F11B9E194F002B5A00 /* Leaf.m */,
+				848CE6F31B9E1A01002B5A00 /* Helper.h */,
 			);
 			path = AppleSystem;
 			sourceTree = "<group>";
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848CE6F21B9E194F002B5A00 /* Leaf.m in Sources */,
 				84A91A7C1B9DC26800444B84 /* AppleTree.m in Sources */,
 				84A91A791B9DC1D000444B84 /* GeneralTree.m in Sources */,
 				D03186171B98A73C009BE4C2 /* Apple.m in Sources */,

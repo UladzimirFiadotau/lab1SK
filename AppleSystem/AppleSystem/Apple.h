@@ -7,13 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-typedef enum {
-    GREEN, RED
-} AppleColor;
+#import "Helper.h"
 
 @interface Apple : NSObject
 
-@property AppleColor color;
+@property MyColor color;
 @property int boneCount;
 @property (getter=isOnTree) BOOL isOnTree;
 
@@ -21,4 +19,5 @@ typedef enum {
 - (id) init;
 - (void) mature;
 - (void) fall;
+- (NSString *) getColor;
 @end
