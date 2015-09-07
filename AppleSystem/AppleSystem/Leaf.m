@@ -11,7 +11,9 @@
 @implementation Leaf
 
 
-
++(Leaf*)createLeaf {
+    return [[Leaf alloc] init];
+}
 
 -(void)getOld{
     if(_currentColor <= YELLOW){

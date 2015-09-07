@@ -17,11 +17,13 @@
 }
 
 - (id) init {
+    self = [super init];
     _apples = [[NSMutableArray alloc] init];
     return self;
 }
 
 - (id) initWithAppleCount:(int)appleCount {
+    self = [super init];
     _apples = [[NSMutableArray alloc] initWithCapacity:appleCount];
     for (int i = 0; i < appleCount; i++) {
         [_apples addObject:[Apple createApple]];
@@ -40,7 +42,7 @@
         [apple fall];
         [_apples removeObjectAtIndex:index];
     }
-    NSLog(@" %d apples fell " , toFall);
+    NSLog(@"   >> %d apples fell " , toFall);
 }
 
 - (void) grown {
@@ -52,6 +54,7 @@
     for (int i = 0; i < newApples; i++) {
         [_apples addObject:[Apple createApple]];
     }
+    NSLog(@"   >> %d apples grown ", newApples);
 }
 
 @end

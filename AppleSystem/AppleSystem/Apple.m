@@ -23,7 +23,7 @@
 
 - (void) fall {
     _isOnTree = NO;
-    NSLog(@"Apple has fault");
+    //NSLog(@"Apple has fault");
 }
 
 - (void) mature {
@@ -31,7 +31,7 @@
     if (_color != RED) {
       _color++;
     }
-    NSLog(@"Apple has matered: bones - %d , new color = %@", _boneCount , [self getColor]);
+    //NSLog(@"Apple has matered: bones - %d , new color = %@", _boneCount , [self getColor]);
 }
 
 - (NSString *) getColor{

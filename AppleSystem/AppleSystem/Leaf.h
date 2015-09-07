@@ -15,7 +15,7 @@
 @property MyColor currentColor;
 @property BOOL isOnTree;
 
-
++(Leaf*)createLeaf;
 -(NSString *)getColor;
 -(void)getOld;
 -(id)init;

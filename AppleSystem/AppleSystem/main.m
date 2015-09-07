@@ -18,6 +18,7 @@ int main(int argc, const char * argv[]) {
         [tree shake];
         [tree grown];
         [tree shake];
+        [tree shake];
     }
     return 0;
 }

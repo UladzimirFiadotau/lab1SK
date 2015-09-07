@@ -11,4 +11,8 @@
 
 @interface GeneralTree : NSObject <Tree>
 
+@property NSMutableArray* leafs;
+
+-(id)init;
+
 @end
