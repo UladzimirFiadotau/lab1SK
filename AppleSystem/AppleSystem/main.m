@@ -9,16 +9,18 @@
 #import <Foundation/Foundation.h>
 #import "Apple.h"
 #import "AppleTree.h"
+#import "Gardener.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         id <Tree> tree = [AppleTree appleTreeWithAppleCount:20];
-        [tree grown];
-        [tree grown];
-        [tree shake];
-        [tree grown];
-        [tree shake];
-        [tree shake];
+        Gardener* gardener = [[Gardener alloc] init];
+        NSLog(@"Gardener starts his work");
+        [gardener pourTree:tree];
+        [gardener pourTree:tree];
+        [gardener shakeTree:tree];
+        NSMutableArray* fruits = [gardener ripFruitCount:10 FromTree:tree];
+        NSLog(@"Gardener finished his work, %lu fruits was ripped", (unsigned long)[fruits count]);
     }
     return 0;
 }

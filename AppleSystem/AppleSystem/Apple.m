@@ -11,8 +11,9 @@
 @implementation Apple
 
 - (id) init {
-    _isOnTree = YES;
-    _color = GREEN;
+    self = [super init];
+    self.isOnTree = YES;
+    self.color = GREEN;
     _boneCount = 3;
     return self;
 }
@@ -21,35 +22,12 @@
     return [[Apple alloc] init];
 }
 
-- (void) fall {
-    _isOnTree = NO;
-    //NSLog(@"Apple has fault");
-}
-
 - (void) mature {
     _boneCount++;
-    if (_color != RED) {
-      _color++;
+    if (self.color != RED) {
+      self.color++;
     }
     //NSLog(@"Apple has matered: bones - %d , new color = %@", _boneCount , [self getColor]);
 }
 
-- (NSString *) getColor{
-    NSString * result = nil;
-    switch (_color) {
-        case GREEN:
-            result = @"Green";
-            break;
-        case YELLOW:
-            result = @"Yellow";
-            break;
-        case RED:
-            result = @"Red";
-            break;
-        default:
-            result = @"Unkown Color";
-            break;
-    }
-    return result;
-}
 @end

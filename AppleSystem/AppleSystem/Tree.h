@@ -7,10 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Fruit.h"
 
 @protocol Tree <NSObject>
 
 - (void) grown;
 - (void) shake;
-
+- (Fruit* ) ripFruit;
 @end

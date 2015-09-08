@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		848CE6F21B9E194F002B5A00 /* Leaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 848CE6F11B9E194F002B5A00 /* Leaf.m */; };
-		84A91A791B9DC1D000444B84 /* GeneralTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A91A781B9DC1D000444B84 /* GeneralTree.m */; };
-		84A91A7C1B9DC26800444B84 /* AppleTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A91A7B1B9DC26800444B84 /* AppleTree.m */; };
-		D031860C1B98A652009BE4C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D031860B1B98A652009BE4C2 /* main.m */; };
-		D03186171B98A73C009BE4C2 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = D03186161B98A73C009BE4C2 /* Apple.m */; };
+		849212161B9F01EF006392D7 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 849212081B9F01EF006392D7 /* Apple.m */; };
+		849212171B9F01EF006392D7 /* AppleTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492120A1B9F01EF006392D7 /* AppleTree.m */; };
+		849212181B9F01EF006392D7 /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492120C1B9F01EF006392D7 /* Fruit.m */; };
+		849212191B9F01EF006392D7 /* Gardener.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492120E1B9F01EF006392D7 /* Gardener.m */; };
+		8492121A1B9F01EF006392D7 /* GeneralTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 849212101B9F01EF006392D7 /* GeneralTree.m */; };
+		8492121B1B9F01EF006392D7 /* Leaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 849212131B9F01EF006392D7 /* Leaf.m */; };
+		8492121C1B9F01EF006392D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849212141B9F01EF006392D7 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,18 +29,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		848CE6F01B9E194F002B5A00 /* Leaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leaf.h; sourceTree = "<group>"; };
-		848CE6F11B9E194F002B5A00 /* Leaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leaf.m; sourceTree = "<group>"; };
-		848CE6F31B9E1A01002B5A00 /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
-		84A91A761B9DC19D00444B84 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
-		84A91A771B9DC1D000444B84 /* GeneralTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralTree.h; sourceTree = "<group>"; };
-		84A91A781B9DC1D000444B84 /* GeneralTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralTree.m; sourceTree = "<group>"; };
-		84A91A7A1B9DC26800444B84 /* AppleTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleTree.h; sourceTree = "<group>"; };
-		84A91A7B1B9DC26800444B84 /* AppleTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleTree.m; sourceTree = "<group>"; };
+		849212071B9F01EF006392D7 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		849212081B9F01EF006392D7 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
+		849212091B9F01EF006392D7 /* AppleTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleTree.h; sourceTree = "<group>"; };
+		8492120A1B9F01EF006392D7 /* AppleTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleTree.m; sourceTree = "<group>"; };
+		8492120B1B9F01EF006392D7 /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
+		8492120C1B9F01EF006392D7 /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fruit.m; sourceTree = "<group>"; };
+		8492120D1B9F01EF006392D7 /* Gardener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gardener.h; sourceTree = "<group>"; };
+		8492120E1B9F01EF006392D7 /* Gardener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gardener.m; sourceTree = "<group>"; };
+		8492120F1B9F01EF006392D7 /* GeneralTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralTree.h; sourceTree = "<group>"; };
+		849212101B9F01EF006392D7 /* GeneralTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralTree.m; sourceTree = "<group>"; };
+		849212111B9F01EF006392D7 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		849212121B9F01EF006392D7 /* Leaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leaf.h; sourceTree = "<group>"; };
+		849212131B9F01EF006392D7 /* Leaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leaf.m; sourceTree = "<group>"; };
+		849212141B9F01EF006392D7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		849212151B9F01EF006392D7 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
 		D03186081B98A652009BE4C2 /* AppleSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AppleSystem; sourceTree = BUILT_PRODUCTS_DIR; };
-		D031860B1B98A652009BE4C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D03186151B98A73C009BE4C2 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
-		D03186161B98A73C009BE4C2 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,17 +77,21 @@
 		D031860A1B98A652009BE4C2 /* AppleSystem */ = {
 			isa = PBXGroup;
 			children = (
-				D031860B1B98A652009BE4C2 /* main.m */,
-				D03186151B98A73C009BE4C2 /* Apple.h */,
-				D03186161B98A73C009BE4C2 /* Apple.m */,
-				84A91A761B9DC19D00444B84 /* Tree.h */,
-				84A91A771B9DC1D000444B84 /* GeneralTree.h */,
-				84A91A7A1B9DC26800444B84 /* AppleTree.h */,
-				84A91A7B1B9DC26800444B84 /* AppleTree.m */,
-				84A91A781B9DC1D000444B84 /* GeneralTree.m */,
-				848CE6F01B9E194F002B5A00 /* Leaf.h */,
-				848CE6F11B9E194F002B5A00 /* Leaf.m */,
-				848CE6F31B9E1A01002B5A00 /* Helper.h */,
+				849212071B9F01EF006392D7 /* Apple.h */,
+				849212081B9F01EF006392D7 /* Apple.m */,
+				849212091B9F01EF006392D7 /* AppleTree.h */,
+				8492120A1B9F01EF006392D7 /* AppleTree.m */,
+				8492120B1B9F01EF006392D7 /* Fruit.h */,
+				8492120C1B9F01EF006392D7 /* Fruit.m */,
+				8492120D1B9F01EF006392D7 /* Gardener.h */,
+				8492120E1B9F01EF006392D7 /* Gardener.m */,
+				8492120F1B9F01EF006392D7 /* GeneralTree.h */,
+				849212101B9F01EF006392D7 /* GeneralTree.m */,
+				849212111B9F01EF006392D7 /* Helper.h */,
+				849212121B9F01EF006392D7 /* Leaf.h */,
+				849212131B9F01EF006392D7 /* Leaf.m */,
+				849212141B9F01EF006392D7 /* main.m */,
+				849212151B9F01EF006392D7 /* Tree.h */,
 			);
 			path = AppleSystem;
 			sourceTree = "<group>";
@@ -142,11 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848CE6F21B9E194F002B5A00 /* Leaf.m in Sources */,
-				84A91A7C1B9DC26800444B84 /* AppleTree.m in Sources */,
-				84A91A791B9DC1D000444B84 /* GeneralTree.m in Sources */,
-				D03186171B98A73C009BE4C2 /* Apple.m in Sources */,
-				D031860C1B98A652009BE4C2 /* main.m in Sources */,
+				849212181B9F01EF006392D7 /* Fruit.m in Sources */,
+				849212191B9F01EF006392D7 /* Gardener.m in Sources */,
+				849212171B9F01EF006392D7 /* AppleTree.m in Sources */,
+				8492121B1B9F01EF006392D7 /* Leaf.m in Sources */,
+				849212161B9F01EF006392D7 /* Apple.m in Sources */,
+				8492121C1B9F01EF006392D7 /* main.m in Sources */,
+				8492121A1B9F01EF006392D7 /* GeneralTree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

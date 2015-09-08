@@ -44,13 +44,17 @@
     NSLog(@"Tree have been shaked -- %d leafs fell" , toFall);
 }
 
--(id)init{
+-(id) init {
     self = [super init];
     int leafCount = arc4random_uniform(10);
     _leafs = [[NSMutableArray alloc] init];
     for(int i=0; i< leafCount; ++i)
         [_leafs addObject:[[Leaf alloc] init]];
     return self;
+}
+
+- (Fruit*) ripFruit {
+    return nil;
 }
 
 @end

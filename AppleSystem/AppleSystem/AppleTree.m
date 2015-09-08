@@ -57,4 +57,17 @@
     NSLog(@"   >> %d apples grown ", newApples);
 }
 
+- (Fruit* ) ripFruit {
+    unsigned int countOfApples = (unsigned int)[_apples count];
+    if (countOfApples > 0) {
+       int index = arc4random_uniform(countOfApples);
+         Apple* apple = [_apples objectAtIndex:index];
+        [_apples removeObjectAtIndex:index];
+        NSLog(@"   >> apple was ripped");
+        return apple;
+    } else {
+        return nil;
+    }
+}
+
 @end

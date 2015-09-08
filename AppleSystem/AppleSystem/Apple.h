@@ -8,16 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import "Helper.h"
+#import "Fruit.h"
 
-@interface Apple : NSObject
+@interface Apple : Fruit
 
-@property MyColor color;
 @property int boneCount;
-@property (getter=isOnTree) BOOL isOnTree;
 
 + (id) createApple;
 - (id) init;
-- (void) mature;
-- (void) fall;
-- (NSString *) getColor;
+
 @end
