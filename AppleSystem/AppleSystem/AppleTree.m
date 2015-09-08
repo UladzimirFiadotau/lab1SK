@@ -63,7 +63,7 @@
        int index = arc4random_uniform(countOfApples);
          Apple* apple = [_apples objectAtIndex:index];
         [_apples removeObjectAtIndex:index];
-        NSLog(@"   >> apple was ripped");
+        //NSLog(@"   >> apple was ripped");
         return apple;
     } else {
         return nil;

@@ -11,7 +11,7 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>FA9AF5338928928382C971289A200EFE64A86A4B</key>
-		<string>https://github.com/UladzimirFiadotau/lab1SK</string>
+		<string>https://github.com/UladzimirFiadotau/lab1SK.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>AppleSystem/AppleSystem.xcodeproj</string>
@@ -21,7 +21,7 @@
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/UladzimirFiadotau/lab1SK</string>
+	<string>https://github.com/UladzimirFiadotau/lab1SK.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>FA9AF5338928928382C971289A200EFE64A86A4B</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Lab1</string>
+			<string>lab1SK</string>
 		</dict>
 	</array>
 </dict>
