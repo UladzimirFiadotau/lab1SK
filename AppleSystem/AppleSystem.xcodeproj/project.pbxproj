@@ -14,6 +14,8 @@
 		8492121A1B9F01EF006392D7 /* GeneralTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 849212101B9F01EF006392D7 /* GeneralTree.m */; };
 		8492121B1B9F01EF006392D7 /* Leaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 849212131B9F01EF006392D7 /* Leaf.m */; };
 		8492121C1B9F01EF006392D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849212141B9F01EF006392D7 /* main.m */; };
+		D03441581BA1DF7D001AB0B3 /* Basket.m in Sources */ = {isa = PBXBuildFile; fileRef = D03441571BA1DF7D001AB0B3 /* Basket.m */; };
+		D034415B1BA1E016001AB0B3 /* BasketIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = D034415A1BA1E016001AB0B3 /* BasketIterator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +47,10 @@
 		849212141B9F01EF006392D7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		849212151B9F01EF006392D7 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
 		D03186081B98A652009BE4C2 /* AppleSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AppleSystem; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03441561BA1DF7D001AB0B3 /* Basket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Basket.h; sourceTree = "<group>"; };
+		D03441571BA1DF7D001AB0B3 /* Basket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Basket.m; sourceTree = "<group>"; };
+		D03441591BA1E016001AB0B3 /* BasketIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasketIterator.h; sourceTree = "<group>"; };
+		D034415A1BA1E016001AB0B3 /* BasketIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasketIterator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,10 @@
 				849212131B9F01EF006392D7 /* Leaf.m */,
 				849212141B9F01EF006392D7 /* main.m */,
 				849212151B9F01EF006392D7 /* Tree.h */,
+				D03441561BA1DF7D001AB0B3 /* Basket.h */,
+				D03441571BA1DF7D001AB0B3 /* Basket.m */,
+				D03441591BA1E016001AB0B3 /* BasketIterator.h */,
+				D034415A1BA1E016001AB0B3 /* BasketIterator.m */,
 			);
 			path = AppleSystem;
 			sourceTree = "<group>";
@@ -154,9 +164,11 @@
 			files = (
 				849212181B9F01EF006392D7 /* Fruit.m in Sources */,
 				849212191B9F01EF006392D7 /* Gardener.m in Sources */,
+				D034415B1BA1E016001AB0B3 /* BasketIterator.m in Sources */,
 				849212171B9F01EF006392D7 /* AppleTree.m in Sources */,
 				8492121B1B9F01EF006392D7 /* Leaf.m in Sources */,
 				849212161B9F01EF006392D7 /* Apple.m in Sources */,
+				D03441581BA1DF7D001AB0B3 /* Basket.m in Sources */,
 				8492121C1B9F01EF006392D7 /* main.m in Sources */,
 				8492121A1B9F01EF006392D7 /* GeneralTree.m in Sources */,
 			);
