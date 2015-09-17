@@ -48,19 +48,11 @@
 }
 
 - (void) testIteratorEmpty {
-    int res = 1;
-    
     BasketIterator *iterator = [self.bToTest iterator];
-    if ([iterator hasNext]) {
-        res = 0;
-    }
-
-    XCTAssertEqual(res, 1);
+    XCTAssertFalse([iterator hasNext], "Not empty iterator");
 }
 
 -(void) testIterationCount {
-    int result = 1;
-   
     BasketIterator *iterator = [self.bToTest iterator];
     int appleCount = 5;
     for(int i=0; i<appleCount; ++i){
@@ -73,21 +65,11 @@
         [iterator next];
         iterationCount++;
     }
-    
-    if (iterationCount != appleCount) {
-        result = 0;
-    }
-    NSLog(@"%d %d ", iterationCount, appleCount);
-    XCTAssertEqual(result, 1, "Busket Iteration count incorrect");
-    
-
+    XCTAssertEqual(appleCount, iterationCount, "Busket Iteration count incorrect");
 }
 
 - (void) testIteratorSequence {
-    int result = 1;
-    
     NSMutableArray *apples = [[NSMutableArray alloc] init];
-    
     
     int appleCount = 5;
     for(int i=0; i<appleCount; ++i){
@@ -97,27 +79,23 @@
     }
     
     BasketIterator *iterator = [self.bToTest iterator];
-
+    //NSString* error = @"Busket return wrong sequence";
     if([iterator next] != [apples objectAtIndex:0]){
-        result = 0;
-        }
+        XCTFail("Busket return wrong sequence");
+    }
     if([iterator next] != [apples objectAtIndex:4]){
-        result = 0;
+        XCTFail("Busket return wrong sequence");
     }
     if([iterator next] != [apples objectAtIndex:1]){
-        result = 0;
+        XCTFail("Busket return wrong sequence");
     }
     if([iterator next] != [apples objectAtIndex:3]){
-        result = 0;
+        XCTFail("Busket return wrong sequence");
     }
     if([iterator next] != [apples objectAtIndex:2]){
-        result = 0;
+        XCTFail("Busket return wrong sequence");
     }
-    XCTAssertEqual(result, 1, "Busket return wrong sequence");
     
 }
-
-
-
 
 @end
