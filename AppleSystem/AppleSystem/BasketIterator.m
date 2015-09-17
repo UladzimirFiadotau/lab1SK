@@ -44,8 +44,4 @@
     return fruit;
 }
 
-- (unsigned int) getPosition{
-    return _position;
-}
-
 @end

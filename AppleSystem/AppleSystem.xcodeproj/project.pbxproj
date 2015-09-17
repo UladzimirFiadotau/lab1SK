@@ -14,9 +14,11 @@
 		8492121A1B9F01EF006392D7 /* GeneralTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 849212101B9F01EF006392D7 /* GeneralTree.m */; };
 		8492121B1B9F01EF006392D7 /* Leaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 849212131B9F01EF006392D7 /* Leaf.m */; };
 		8492121C1B9F01EF006392D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849212141B9F01EF006392D7 /* main.m */; };
-		84C01F321BAA154900465044 /* AppleSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C01F311BAA154900465044 /* AppleSystemTests.m */; };
 		84C01F3A1BAA1B0100465044 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 849212081B9F01EF006392D7 /* Apple.m */; };
 		84C01F3B1BAA1B1A00465044 /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492120C1B9F01EF006392D7 /* Fruit.m */; };
+		A93930D31BAAE53400949404 /* BasketIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = D034415A1BA1E016001AB0B3 /* BasketIterator.m */; };
+		A93930D41BAAE53800949404 /* Basket.m in Sources */ = {isa = PBXBuildFile; fileRef = D03441571BA1DF7D001AB0B3 /* Basket.m */; };
+		A93930D71BAAE77600949404 /* AppleSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C01F311BAA154900465044 /* AppleSystemTests.m */; };
 		D03441581BA1DF7D001AB0B3 /* Basket.m in Sources */ = {isa = PBXBuildFile; fileRef = D03441571BA1DF7D001AB0B3 /* Basket.m */; };
 		D034415B1BA1E016001AB0B3 /* BasketIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = D034415A1BA1E016001AB0B3 /* BasketIterator.m */; };
 /* End PBXBuildFile section */
@@ -233,9 +235,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A93930D41BAAE53800949404 /* Basket.m in Sources */,
 				84C01F3B1BAA1B1A00465044 /* Fruit.m in Sources */,
 				84C01F3A1BAA1B0100465044 /* Apple.m in Sources */,
-				84C01F321BAA154900465044 /* AppleSystemTests.m in Sources */,
+				A93930D31BAAE53400949404 /* BasketIterator.m in Sources */,
+				A93930D71BAAE77600949404 /* AppleSystemTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +401,7 @@
 				84C01F351BAA154900465044 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D03186031B98A652009BE4C2 /* Build configuration list for PBXProject "AppleSystem" */ = {
 			isa = XCConfigurationList;
