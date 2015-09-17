@@ -13,5 +13,6 @@
 - (id) initWithArray: (NSMutableArray* ) array;
 - (BOOL) hasNext;
 - (Fruit*) next;
+- (unsigned int) getPosition;
 
 @end

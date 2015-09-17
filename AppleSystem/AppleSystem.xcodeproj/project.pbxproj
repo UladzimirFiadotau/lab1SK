@@ -14,6 +14,9 @@
 		8492121A1B9F01EF006392D7 /* GeneralTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 849212101B9F01EF006392D7 /* GeneralTree.m */; };
 		8492121B1B9F01EF006392D7 /* Leaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 849212131B9F01EF006392D7 /* Leaf.m */; };
 		8492121C1B9F01EF006392D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849212141B9F01EF006392D7 /* main.m */; };
+		84C01F321BAA154900465044 /* AppleSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C01F311BAA154900465044 /* AppleSystemTests.m */; };
+		84C01F3A1BAA1B0100465044 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 849212081B9F01EF006392D7 /* Apple.m */; };
+		84C01F3B1BAA1B1A00465044 /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492120C1B9F01EF006392D7 /* Fruit.m */; };
 		D03441581BA1DF7D001AB0B3 /* Basket.m in Sources */ = {isa = PBXBuildFile; fileRef = D03441571BA1DF7D001AB0B3 /* Basket.m */; };
 		D034415B1BA1E016001AB0B3 /* BasketIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = D034415A1BA1E016001AB0B3 /* BasketIterator.m */; };
 /* End PBXBuildFile section */
@@ -46,6 +49,9 @@
 		849212131B9F01EF006392D7 /* Leaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leaf.m; sourceTree = "<group>"; };
 		849212141B9F01EF006392D7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		849212151B9F01EF006392D7 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		84C01F2D1BAA154900465044 /* AppleSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C01F301BAA154900465044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C01F311BAA154900465044 /* AppleSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleSystemTests.m; sourceTree = "<group>"; };
 		D03186081B98A652009BE4C2 /* AppleSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AppleSystem; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03441561BA1DF7D001AB0B3 /* Basket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Basket.h; sourceTree = "<group>"; };
 		D03441571BA1DF7D001AB0B3 /* Basket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Basket.m; sourceTree = "<group>"; };
@@ -54,6 +60,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		84C01F2A1BAA154900465044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D03186051B98A652009BE4C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -64,10 +77,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		843D0CAA1BA9F9FE00849A2A /* AppleSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AppleSystemTests;
+			sourceTree = "<group>";
+		};
+		84C01F2E1BAA154900465044 /* AppleSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				84C01F311BAA154900465044 /* AppleSystemTests.m */,
+				84C01F2F1BAA154900465044 /* Supporting Files */,
+			);
+			path = AppleSystemTests;
+			sourceTree = "<group>";
+		};
+		84C01F2F1BAA154900465044 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C01F301BAA154900465044 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		D03185FF1B98A652009BE4C2 = {
 			isa = PBXGroup;
 			children = (
+				843D0CAA1BA9F9FE00849A2A /* AppleSystemTests */,
 				D031860A1B98A652009BE4C2 /* AppleSystem */,
+				84C01F2E1BAA154900465044 /* AppleSystemTests */,
 				D03186091B98A652009BE4C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				D03186081B98A652009BE4C2 /* AppleSystem */,
+				84C01F2D1BAA154900465044 /* AppleSystemTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +149,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		84C01F2C1BAA154900465044 /* AppleSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C01F331BAA154900465044 /* Build configuration list for PBXNativeTarget "AppleSystemTests" */;
+			buildPhases = (
+				84C01F291BAA154900465044 /* Sources */,
+				84C01F2A1BAA154900465044 /* Frameworks */,
+				84C01F2B1BAA154900465044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleSystemTests;
+			productName = AppleSystemTests;
+			productReference = 84C01F2D1BAA154900465044 /* AppleSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D03186071B98A652009BE4C2 /* AppleSystem */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D031860F1B98A652009BE4C2 /* Build configuration list for PBXNativeTarget "AppleSystem" */;
@@ -135,6 +192,9 @@
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = fpmi;
 				TargetAttributes = {
+					84C01F2C1BAA154900465044 = {
+						CreatedOnToolsVersion = 6.4;
+					};
 					D03186071B98A652009BE4C2 = {
 						CreatedOnToolsVersion = 6.2;
 					};
@@ -153,11 +213,32 @@
 			projectRoot = "";
 			targets = (
 				D03186071B98A652009BE4C2 /* AppleSystem */,
+				84C01F2C1BAA154900465044 /* AppleSystemTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		84C01F2B1BAA154900465044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		84C01F291BAA154900465044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C01F3B1BAA1B1A00465044 /* Fruit.m in Sources */,
+				84C01F3A1BAA1B0100465044 /* Apple.m in Sources */,
+				84C01F321BAA154900465044 /* AppleSystemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D03186041B98A652009BE4C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -177,6 +258,41 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		84C01F341BAA154900465044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AppleSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84C01F351BAA154900465044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = AppleSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		D031860D1B98A652009BE4C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -254,6 +370,9 @@
 		D03186101B98A652009BE4C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Library/Frameworks/;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -261,6 +380,9 @@
 		D03186111B98A652009BE4C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Library/Frameworks/;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -268,6 +390,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		84C01F331BAA154900465044 /* Build configuration list for PBXNativeTarget "AppleSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C01F341BAA154900465044 /* Debug */,
+				84C01F351BAA154900465044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D03186031B98A652009BE4C2 /* Build configuration list for PBXProject "AppleSystem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
